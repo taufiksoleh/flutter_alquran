@@ -1,7 +1,9 @@
-import 'package:alquran/sura/ui/sura_screen.dart';
+import 'package:alquran/splash_screen.dart';
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   
@@ -10,10 +12,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Al Quran',
       theme: ThemeData(
+        fontFamily: 'LPQM',
         brightness: Brightness.dark,
-        primaryColorDark: Colors.black
+        primaryColorDark: Colors.black,
       ),
-      home: SuraScreen(title: 'Surat'),
+      home: SplashScreen(),
     );
   }
 }
