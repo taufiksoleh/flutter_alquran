@@ -74,7 +74,7 @@ class _SuraScreenState extends State<SuraScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.title),
+        title: Text(widget.title != null ? widget.title : "Surat"),
       ),
       body: _suraListView()
     );
