@@ -1,0 +1,4 @@
+keyAlias=qurankita
+keyPassword=123456
+storeFile=../qurankita.jks
+storePassword=123456
